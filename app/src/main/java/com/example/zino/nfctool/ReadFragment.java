@@ -17,7 +17,7 @@ public class ReadFragment extends Fragment implements View.OnClickListener{
     Button read_start;
     TextView txt_data;
     ProgressBar bar;
-
+    boolean isWaiting;
 
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = null;
@@ -36,6 +36,7 @@ public class ReadFragment extends Fragment implements View.OnClickListener{
     public void onClick(View view) {
         //프로그래스바 보이기!!
         bar.setVisibility(View.VISIBLE);
+        isWaiting=true;
 
     }
 }
