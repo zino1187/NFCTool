@@ -12,18 +12,22 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/bt_read"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#FFFFDD00"
-            android:text="NFC Read" />
+            android:text="NFC Read"
+            android:onClick="btnClick"/>
 
         <Button
+            android:id="@+id/bt_write"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#FFFFFFFF"
-            android:text="NFC Write" />
+            android:text="NFC Write"
+            android:onClick="btnClick"/>
 
     </LinearLayout>
 

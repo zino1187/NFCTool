@@ -6,6 +6,7 @@
     android:background="#FFFFDD00">
 
     <Button
+        android:id="@+id/read_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Read Start !!"
@@ -15,10 +16,11 @@
         android:id="@+id/bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="visible"
+        android:visibility="gone"
         android:layout_gravity="center"/>
 
     <TextView
+        android:id="@+id/txt_data"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="the data was read"
